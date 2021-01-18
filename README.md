@@ -63,7 +63,7 @@ Agora se quisermos visualizar apenas um campo ou atributo
 ```SQL
 Select NomeCampo FROM NomeDaTabela
 ```
-**2.3.1. Adicionando registros em nossa tabela**
+**2.3.1. Adicionando registros em nossa tabela**<br>
 Vamos usar como exemplo a tabela cursos que criamos logo acima. 
 ```SQL
 INSERT INTO Cursos(ID, NOME, LOCAL, ESTUDANTE) VALUES (01, "Banco de dados", "Rio de Janeiro", 20)
@@ -83,7 +83,8 @@ Também podemos adicionar registros de forma mais resumida. Como no exemplo abai
 ```SQL
 INSERT INTO Cursos VALUES(01,"Banco de dados","Rio de Janeiro",20)
 ```
-**2.3.2. Modificando registros em nossa tabela**
+**2.3.2. Modificando registros em nossa tabela**<br>
+Caso seja necessário modificar ou atualizar os dados de algum registro, basta seguir este comando: 
 ```SQL
 UPDATE NomeTabela
 SET CampoDesejado = "Novo_Valor"
