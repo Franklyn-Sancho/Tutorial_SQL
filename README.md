@@ -1,7 +1,7 @@
 <h1 align="center"> Um pouco mais sobre SQL </h1>
-A alma do Backend é o nosso tão amado banco de dados, saber trabalhar com SQL e noSQL é essencial para aqueles que almejam trabalhar com desenvolvimento Backend. Sem mais delongas, vamos iniciar. 
+A alma do Backend é o nosso tão amado banco de dados, saber trabalhar com SQL e noSQL é essencial para aqueles que almejam trabalhar com desenvolvimento Backend. Sem mais delongas, Bora codar. 
 
-<h5 align="center"> Antes de tudo, irei disponibilizar algumas ferramentas online para que vocês possam estudar e se divertir, caso não possam instalar as ferramentas necessárias.  </h5>
+<h5 align="center"> Antes de tudo, irei disponibilizar algumas ferramentas online para que vocês possam estudar e se divertir, se por algum morito não puderem instalar as ferramentas e softwares necessários  </h5>
 
 ## 1. Então antes de qualquer coisa 
 1.2. **Vamos as ferramentas:**
