@@ -1,10 +1,10 @@
 <h1 align="center"> Um pouco mais sobre SQL </h1>
-A alma do Backend é o nosso tão amado banco de dados, saber trabalhar com SQL e noSQL é essencial para aqueles que almejam trabalhar com desenvolvimento Backend. Sem mais delongas, Bora codar. 
+A alma do Backend é o nosso tão amado banco de dados, saber trabalhar com SQL e NoSQL é essencial para aqueles que almejam trabalhar com desenvolvimento Backend. Sem mais delongas, Bora codar. 
 
-<h5 align="center"> Antes de tudo, irei disponibilizar algumas ferramentas online para que vocês possam estudar e se divertir, se por algum morito não puderem instalar as ferramentas e softwares necessários  </h5>
+<h5 align="center"> Antes de tudo, irei disponibilizar algumas ferramentas online para que vocês possam estudar e se divertir, se por algum motivo não puderem instalar os softwares necessários  </h5>
 
 ## 1. Então antes de qualquer coisa 
-1.2. **Vamos as ferramentas:**
+1.2. **Vamos às ferramentas:**
 
    * https://sqliteonline.com
    * http://sqlfiddle.com/
@@ -16,9 +16,9 @@ A alma do Backend é o nosso tão amado banco de dados, saber trabalhar com SQL 
    * Também temos o MySql, Sql Server, Oracle e etc.
    * Leia também sobre NoSQL: MondoDB e etc.
 
-## 2. Agora sim é SQL. 
+## 2. Agora sim é SQL 
 
-O SQL funciona por comandos, exatamente como o terminal do nosso computador. Mas não precisa ficar assustado, é tudo muito simples. Ok, nem tanto assim, mas se você entender os conceitos e praticar todos os dias, ao lidar com algo complexo, não serão tão complexo assim. Agora vamos seguir o nosso trabalho:<br><br>
+O SQL funciona por comandos, exatamente como o terminal do nosso computador. Mas não precisa ficar assustado, é tudo muito simples. Ok, nem tanto assim, mas se você entender os conceitos e praticar todos os dias, ao lidar com algo complexo, não serão tão complexos assim. Agora vamos seguir o nosso trabalho:<br><br>
 **2.1 Criar o nosso DataBase:**<br>
 Obs. Substitua o 'NomeDesejado' por algo que faça sentido no seu negócio
 ```SQL
@@ -38,8 +38,8 @@ Primeiro precisamos chamar a nossa database com o seguinte comando:
 ```SQL
 USE DATABASE NomeDesejado;
 ```
-**2.2.2. Criando a Tabela**<br>
-Obs. Aqui iremos chamar o comando de criação de tabela e também adicionar os atributos importantes. Então vou usar um exemplo aleatório
+**2.2.2. Agora sim, nossa primeira tabela**<br>
+Obs. Aqui iremos chamar o comando de criação de tabela e também adicionar os atributos importantes. Para facilitar o entendimento, vou criar uma tabela aleatória:
 ```SQL
 CREATE TABLE Curso (
   id varchar(02),
