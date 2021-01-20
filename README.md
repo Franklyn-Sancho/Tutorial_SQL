@@ -132,9 +132,9 @@ SELECT ǹome, sobrenome FROM clientes WHERE id =
 (SELECT id FROM clientes WHERE sobrenome = 'Silva');
 ```
 
-ParaCegoVer: Selecione o nome e o sobrenome da tabela clientes onde o id desse tal cliente tenha como sobrenome o registro Silva :smile:
+Vamos entender? Selecione o nome e o sobrenome da tabela clientes, onde o id desse tal cliente tenha como registro de sobrenome: **'Silva'** :smile:
 
-### 3. Os polêmicos joins
+### 3. Os polêmicos joins :fearful:
 
 
 
