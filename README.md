@@ -83,7 +83,7 @@ Também podemos adicionar registros de forma mais resumida. Como no exemplo abai
 ```SQL
 INSERT INTO Cursos VALUES(01,"Banco de dados","Rio de Janeiro",20)
 ```
-**2.3.2. Modificando registros em nossa tabela**<br>
+**2.3.2. Atualizando registros em nossa tabela**<br>
 Caso seja necessário modificar ou atualizar os dados de algum registro, basta seguir este comando: 
 ```SQL
 UPDATE NomeTabela
@@ -103,3 +103,34 @@ ID   | Nome                 | Local        | Estudantes
 02   | Linguagem Python     |**Mordor**    |30 
 03   | Sistemas Operacionais|MInas Gerais  |10
 04   | Segunda da informação|Narnia        |40
+
+**2.3.3. Removendo registros da nossa tabela:**
+Se for necessário remover alguma registro, no caso uma linha, basta executar este comando logo abaixo
+```sql
+DELETE FROM Nome_tabela
+WHERE IdentificadorRegistro
+```
+vamos ao exemplo pra facilitar:
+```sql
+DELETE FROM cursos
+WHERE id=03
+```
+Depois de executar esse comando, o curso 'sistemas operacionais' será removido da nossa tabela.
+
+**2.4. Vamos as subconsultas**
+<p> A subconsulta é um tipo de select mais específico. Diferente do que aprendemos no capítulo **2.3**, agora vamos aprender a  trabalhar com os tratamentos: any, in, all, exists. Podemos resumir a subconsulta como um select entre tabelas. Darei alguns exemplos de comandos, mas preciso reforçar que neste caso, o comando certo depende unicamente da lógica do seu banco de dados. </p>
+<p> Amo construir os meus exemplos, mas pela extensão do assunto, principalmente pela lógica, deixarei alguns links para que vocês possam estudar </p>
+1. Link: http://www.inf.ufsc.br/~r.mello/ine5323/SQL-subconsultas.pdf
+2. Link: https://imasters.com.br/back-end/como-fazer-subconsultas-um-passo-passo
+3. Link: https://www.ibm.com/support/knowledgecenter/pt-br/SS9UMF_11.2.0/ugr/ugr/tpc/dsq_create_subquery_retrieve_data.html
+mas para não perder o costume, deixarei a carinha de uma subconsulta aqui:
+
+```sql
+SELECT ǹome, sobrenome FROM clientes WHERE id =
+(SELECT id FROM clientes WHERE sobrenome = 'Silva');
+```
+
+ParaCegoVer: Selecione o nome e o sobrenome da tabela clientes onde o id desse tal cliente tenha como sobrenome o registro Silva :smile:
+
+
+
