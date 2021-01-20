@@ -120,8 +120,9 @@ Depois de executar esse comando, o curso 'sistemas operacionais' será removido 
 **2.4. Vamos as subconsultas**
 <p> A subconsulta é um tipo de select mais específico. Diferente do que aprendemos no capítulo **2.3**, agora vamos aprender a  trabalhar com os tratamentos: any, in, all, exists. Podemos resumir a subconsulta como um select entre tabelas. Darei alguns exemplos de comandos, mas preciso reforçar que neste caso, o comando certo depende unicamente da lógica do seu banco de dados. </p>
 <p> Amo construir os meus exemplos, mas pela extensão do assunto, principalmente pela lógica, deixarei alguns links para que vocês possam estudar </p>
-1. Link: http://www.inf.ufsc.br/~r.mello/ine5323/SQL-subconsultas.pdf
-2. Link: https://imasters.com.br/back-end/como-fazer-subconsultas-um-passo-passo
+
+1. Link: http://www.inf.ufsc.br/~r.mello/ine5323/SQL-subconsultas.pdf<br>
+2. Link: https://imasters.com.br/back-end/como-fazer-subconsultas-um-passo-passo<br>
 3. Link: https://www.ibm.com/support/knowledgecenter/pt-br/SS9UMF_11.2.0/ugr/ugr/tpc/dsq_create_subquery_retrieve_data.html
 mas para não perder o costume, deixarei a carinha de uma subconsulta aqui:
 
