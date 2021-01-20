@@ -123,7 +123,7 @@ Depois de executar esse comando, o curso 'sistemas operacionais' será removido 
 
 1. Link: http://www.inf.ufsc.br/~r.mello/ine5323/SQL-subconsultas.pdf<br>
 2. Link: https://imasters.com.br/back-end/como-fazer-subconsultas-um-passo-passo<br>
-3. Link: https://www.ibm.com/support/knowledgecenter/pt-br/SS9UMF_11.2.0/ugr/ugr/tpc/dsq_create_subquery_retrieve_data.html
+3. Link: https://www.ibm.com/support/knowledgecenter/pt-br/SS9UMF_11.2.0/ugr/ugr/tpc/dsq_create_subquery_retrieve_data.html<br>
 mas para não perder o costume, deixarei a carinha de uma subconsulta aqui:
 
 ```sql
